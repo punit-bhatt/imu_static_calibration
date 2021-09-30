@@ -110,23 +110,24 @@ def verify_rotation_matrix(a3_acc, ouster_acc, R):
 
     print('\nVerifying - ')
 
-    a3_acc_calc = np.matmul(R, ouster_acc)
-    mse = np.mean((a3_acc - a3_acc_calc) ** 2)
-    diff = np.abs(a3_acc - a3_acc_calc)
+    rotated_ouster_calc = np.matmul(R, ouster_acc)
+    mse = np.mean((a3_acc - rotated_ouster_calc) ** 2)
+    diff = np.abs(a3_acc - rotated_ouster_calc)
     abs_diff_min = np.min(diff)
     abs_diff_max = np.max(diff)
     abs_diff_mean = np.mean(diff)
     abs_diff_std = np.std(diff)
 
-    # print(f'{a3_acc = }')
-    # print(f'{a3_acc_calc = }')
+    print('A3 Acceleration - \n{0}'.format(a3_acc))
+    print('Original Ouster Acceleration - \n{0}'.format(ouster_acc))
+    print('Rotated Ouster Acceleration - \n{0}\n'.format(rotated_ouster_calc))
 
     # Error stats
     print(f'{mse = }')
     print(f'{abs_diff_min = }')
     print(f'{abs_diff_max = }')
     print(f'{abs_diff_mean = }')
-    print(f'{abs_diff_std = }')
+    print(f'{abs_diff_std = }\n')
 
     return mse, abs_diff_min, abs_diff_max, abs_diff_mean, abs_diff_std
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/punit13/personal/airlab/imu_static_calibration/src/imu_static_calibration
+# Install script for directory: /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/src/imu_static_calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/punit13/personal/airlab/imu_static_calibration/install")
+  set(CMAKE_INSTALL_PREFIX "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/punit13/personal/airlab/imu_static_calibration/build/imu_static_calibration/catkin_generated/installspace/imu_static_calibration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/imu_static_calibration/catkin_generated/installspace/imu_static_calibration.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_static_calibration/cmake" TYPE FILE FILES
-    "/home/punit13/personal/airlab/imu_static_calibration/build/imu_static_calibration/catkin_generated/installspace/imu_static_calibrationConfig.cmake"
-    "/home/punit13/personal/airlab/imu_static_calibration/build/imu_static_calibration/catkin_generated/installspace/imu_static_calibrationConfig-version.cmake"
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/imu_static_calibration/catkin_generated/installspace/imu_static_calibrationConfig.cmake"
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/imu_static_calibration/catkin_generated/installspace/imu_static_calibrationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_static_calibration" TYPE FILE FILES "/home/punit13/personal/airlab/imu_static_calibration/src/imu_static_calibration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_static_calibration" TYPE FILE FILES "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/src/imu_static_calibration/package.xml")
 endif()
 

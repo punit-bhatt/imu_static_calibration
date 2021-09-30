@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/punit13/personal/airlab/imu_static_calibration/devel/setup.sh
+    local-name: /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/devel/setup.sh

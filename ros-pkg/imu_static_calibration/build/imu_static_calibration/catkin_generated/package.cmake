@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "imu_static_calibration")
 set(imu_static_calibration_VERSION "0.0.0")
-set(imu_static_calibration_MAINTAINER "punit13 <punit13@todo.todo>")
+set(imu_static_calibration_MAINTAINER "punit-bhatt <punitb@andrew.cmu.edu>")
 set(imu_static_calibration_PACKAGE_FORMAT "2")
 set(imu_static_calibration_BUILD_DEPENDS "rospy")
 set(imu_static_calibration_BUILD_EXPORT_DEPENDS "rospy")

@@ -1,4 +1,4 @@
-prefix=/home/punit13/personal/airlab/imu_static_calibration/devel
+prefix=/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/devel
 
 Name: imu_static_calibration
 Description: Description of imu_static_calibration

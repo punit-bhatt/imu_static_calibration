@@ -1,8 +1,8 @@
-# Install script for directory: /home/punit13/personal/airlab/imu_static_calibration/src
+# Install script for directory: /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/punit13/personal/airlab/imu_static_calibration/install")
+  set(CMAKE_INSTALL_PREFIX "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,89 +49,89 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/punit13/personal/airlab/imu_static_calibration/install/_setup_util.py")
+   "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/install" TYPE PROGRAM FILES "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install" TYPE PROGRAM FILES "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/punit13/personal/airlab/imu_static_calibration/install/env.sh")
+   "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/install" TYPE PROGRAM FILES "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install" TYPE PROGRAM FILES "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/punit13/personal/airlab/imu_static_calibration/install/setup.bash;/home/punit13/personal/airlab/imu_static_calibration/install/local_setup.bash")
+   "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/setup.bash;/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/install" TYPE FILE FILES
-    "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/setup.bash"
-    "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install" TYPE FILE FILES
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/setup.bash"
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/punit13/personal/airlab/imu_static_calibration/install/setup.sh;/home/punit13/personal/airlab/imu_static_calibration/install/local_setup.sh")
+   "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/setup.sh;/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/install" TYPE FILE FILES
-    "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/setup.sh"
-    "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install" TYPE FILE FILES
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/setup.sh"
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/punit13/personal/airlab/imu_static_calibration/install/setup.zsh;/home/punit13/personal/airlab/imu_static_calibration/install/local_setup.zsh")
+   "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/setup.zsh;/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/install" TYPE FILE FILES
-    "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/setup.zsh"
-    "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install" TYPE FILE FILES
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/setup.zsh"
+    "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/punit13/personal/airlab/imu_static_calibration/install/.rosinstall")
+   "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/install" TYPE FILE FILES "/home/punit13/personal/airlab/imu_static_calibration/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install" TYPE FILE FILES "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/punit13/personal/airlab/imu_static_calibration/build/gtest/cmake_install.cmake")
-  include("/home/punit13/personal/airlab/imu_static_calibration/build/imu_static_calibration/cmake_install.cmake")
+  include("/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/gtest/cmake_install.cmake")
+  include("/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/imu_static_calibration/cmake_install.cmake")
 
 endif()
 
@@ -143,5 +143,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/punit13/personal/airlab/imu_static_calibration/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

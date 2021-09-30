@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/punit13/personal/airlab/imu_static_calibration/src
+CMAKE_SOURCE_DIR = /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/punit13/personal/airlab/imu_static_calibration/build
+CMAKE_BINARY_DIR = /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/punit13/personal/airlab/imu_static_calibration/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/punit13/personal/airlab/imu_static_calibration/src /home/punit13/personal/airlab/imu_static_calibration/src /home/punit13/personal/airlab/imu_static_calibration/build /home/punit13/personal/airlab/imu_static_calibration/build /home/punit13/personal/airlab/imu_static_calibration/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/src /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/src /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build /home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

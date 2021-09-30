@@ -1,2 +1,2 @@
 imu_static_calibration
--DCATKIN_DEVEL_PREFIX=/home/punit13/personal/airlab/imu_static_calibration/devel -DCMAKE_INSTALL_PREFIX=/home/punit13/personal/airlab/imu_static_calibration/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/devel -DCMAKE_INSTALL_PREFIX=/home/punit13/personal/airlab/imu_static_calibration/ros-pkg/imu_static_calibration/install -G Unix Makefiles
