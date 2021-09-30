@@ -1,0 +1,10 @@
+<launch>
+
+    <node name="calibrate_imu" pkg="imu_static_calibration" type="calibrate_imu.py" output="screen">
+        <param name="bag_path" value="/home/punit13/personal/airlab/bagfiles" />
+        <param name="a3_imu_topic" value="/uav1/dji_sdk/imu" />
+        <param name="ouster_imu_topic" value="/uav1/os_hori/os_cloud_node/imu" />
+        <param name="out_path" value="/home/punit13/personal/airlab/output.txt" />
+    </node>
+
+</launch>

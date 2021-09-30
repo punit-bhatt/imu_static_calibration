@@ -1,0 +1,8 @@
+prefix=/home/punit13/personal/airlab/imu_static_calibration/install
+
+Name: imu_static_calibration
+Description: Description of imu_static_calibration
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
